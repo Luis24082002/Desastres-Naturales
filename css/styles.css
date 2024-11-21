@@ -265,3 +265,13 @@
   color: #fff; 
   transform: scale(1.05); 
 }
+
+.accordion-button:not(.collapsed) {
+  background-color: #E9967A; 
+  color:#212529; 
+}
+
+
+.accordion-button:not(.collapsed) .accordion-button-text {
+  color:#fff;
+}
